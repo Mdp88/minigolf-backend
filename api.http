@@ -1,0 +1,17 @@
+### get method
+
+GET http://localhost:3000
+
+### post score
+
+POST http://localhost:3000/scores
+Content-Type: application/json
+
+{
+    "name":"Test",
+    "score":5
+}
+
+### get scores
+
+GET http://localhost:3000/scores
